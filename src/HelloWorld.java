@@ -18,7 +18,14 @@ public class HelloWorld {
 
         System.out.println("Digite sua idade: ");
         int idade = scanner.nextInt();
-        System.out.println("idade: " + idade);
+        System.out.println("idade: " + idade + " anos ");
+
+
+                       //estado civil
+
+        System.out.println("Qual é seu estado Civil:");
+        String estadoCivil = scanner.next();
+        System.out.println("Estado civil: " + estadoCivil);
 
 
                        //CPF
@@ -44,7 +51,7 @@ public class HelloWorld {
 
 
 
-        System.out.println("Olá eu sou " + nome + " eu tenho " + idade + " meu cpf e: " + CPF + " eu peso: " + peso + " eu tenho " + altura + " de altura" );
+        System.out.println("Olá eu sou " + nome + " eu tenho " + idade + " meu estado civil: " + estadoCivil + " meu cpf e: " + CPF + " eu peso: " + peso + " eu tenho " + altura + " de altura" );
 
 
 
